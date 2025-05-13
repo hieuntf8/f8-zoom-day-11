@@ -1,0 +1,414 @@
+@media (max-width: 1399.98px) {
+    /* ============ Hero ============ */
+    .hero__decor:nth-child(4) {
+        right: -47px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar__link {
+        padding: 8px 12px;
+        font-size: 1.5rem;
+    }
+
+    .header-cta__tel {
+        font-size: 1.5rem;
+    }
+
+    /* ============ Hero ============ */
+    .hero__heading {
+        font-size: 5.6rem;
+    }
+
+    .hero__decor:nth-child(2) {
+        width: 120px;
+        height: 120px;
+        top: -60px;
+        left: -60px;
+    }
+
+    .hero__decor:nth-child(4) {
+        right: -30px;
+        width: 120px;
+    }
+
+    /* ============ About us ============ */
+    .about__info {
+        margin-left: 80px;
+    }
+
+    .about__heading {
+        font-size: 4rem;
+    }
+
+    .about__label {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* ============ Hero ============ */
+    .hero {
+        padding: 52px 0 30px;
+    }
+
+    .hero__media {
+        margin-top: 100px;
+        margin-left: initial;
+    }
+
+    .hero__decor:nth-child(2) {
+        left: -40px;
+    }
+
+    /* ============ About us ============ */
+    .about__info {
+        margin-left: initial;
+    }
+
+    .about__media::after {
+        right: -40px;
+    }
+
+    /* ============ Services ============ */
+    .services {
+        padding: 50px 0 25px;
+    }
+
+    .services__bottom {
+        margin-top: 40px;
+    }
+
+    .services__btn--more {
+        --height: 65px;
+        font-size: 1.9rem;
+    }
+
+    .service__btn {
+        margin-top: 40px;
+    }
+
+    /* ============ Features ============ */
+    .features {
+        padding: 25px 0;
+    }
+
+    .features__info {
+        margin-left: initial;
+    }
+
+    .features__sub-heading,
+    .features__desc {
+        font-size: 1.2rem;
+    }
+
+    .features__heading {
+        font-size: 3rem;
+    }
+
+    .features__btn {
+        --height: 42px;
+
+        font-size: 1.283rem;
+    }
+
+    /* ============ Team ============ */
+    .team {
+        padding: 50px 0;
+    }
+
+    /* ============ Awards ============ */
+    .awards {
+        padding: 50px 0;
+    }
+
+    /* ============ Testimonial ============ */
+    .testimonial {
+        padding: 50px 0;
+    }
+
+    /* ============ FAQ ============ */
+    .faq {
+        padding: 50px 0;
+    }
+
+    /* ============ Blog ============ */
+    .blog {
+        padding: 50px 0;
+    }
+
+    .blog__action {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    /* ============ CTA ============ */
+    .cta {
+        padding: 40px 0;
+    }
+
+    /* ============ Footer ============ */
+    .footer {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* ============ Hero ============ */
+    .hero__sub-heading {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero__heading {
+        font-size: 3.5rem;
+        line-height: 1.17143;
+    }
+
+    .hero__decor:nth-child(2) {
+        top: -48px;
+        left: -28px;
+    }
+
+    .hero__decor:nth-child(4) {
+        right: -29px;
+    }
+
+    .hero__btn {
+        --height: 35px;
+
+        font-size: 1.0579rem;
+    }
+
+    /* ============ About us ============ */
+    .about {
+        padding: 30px 0;
+    }
+
+    .about__heading {
+        font-size: 3rem;
+    }
+
+    .about__sub-heading,
+    .about__desc {
+        font-size: 1.2rem;
+    }
+
+    .about__qty {
+        color: #fff;
+        font-size: 1.68rem;
+        line-height: 1.41667;
+    }
+
+    .about__label {
+        font-size: 1.264rem;
+    }
+
+    .about__btn {
+        --height: 42px;
+
+        font-size: 1.264rem;
+    }
+
+    /* ============ Services ============ */
+    .services__sub-heading,
+    .services__desc {
+        font-size: 1.2rem;
+    }
+
+    .services__heading {
+        font-size: 3rem;
+    }
+
+    .services__desc {
+        margin-top: 10px;
+    }
+
+    /* ============ Team ============ */
+    .team__sub-heading,
+    .team__desc {
+        font-size: 1.2rem;
+    }
+
+    .team__heading {
+        font-size: 3rem;
+    }
+
+    .team__desc {
+        margin-top: 15px;
+    }
+
+    .team__list {
+        margin-top: 40px;
+    }
+
+    /* ============ Awards ============ */
+
+    .awards__sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .awards__heading {
+        font-size: 3rem;
+    }
+
+    .awards__bottom {
+        margin-top: 40px;
+    }
+
+    /* ============ Testimonial ============ */
+    .testimonial__sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .testimonial__heading {
+        font-size: 3rem;
+    }
+
+    .testimonial__control {
+        gap: 15px;
+    }
+
+    .testimonial__control-btn {
+        padding: 10px 15px;
+    }
+
+    .testimonial__quote {
+        font-size: 1.6rem;
+    }
+
+    .testimonial__name {
+        font-size: 1.6rem;
+    }
+
+    .testimonial__field {
+        font-size: 1.2rem;
+    }
+
+    /* ============ FAQ ============ */
+    .faq__sub-heading,
+    .faq__tab--type {
+        font-size: 1.2rem;
+    }
+
+    .faq__heading {
+        font-size: 3rem;
+    }
+
+    .faq__item {
+        padding: 14px;
+    }
+
+    .faq__item--open {
+        margin-bottom: 15px;
+        padding: 14px;
+    }
+
+    .faq__label {
+        font-size: 1.2rem;
+    }
+
+    .faq__icon {
+        width: 18px;
+        height: 20px;
+        padding: 7px 2px;
+    }
+
+    .faq__text {
+        font-size: 1.1rem;
+    }
+
+    /* ============ Blog ============ */
+    .blog__sub-heading,
+    .blog__desc {
+        font-size: 1.2rem;
+    }
+
+    .blog__heading {
+        font-size: 3rem;
+    }
+
+    .blog__desc {
+        margin-top: 15px;
+    }
+
+    .blog__bottom {
+        margin-top: 40px;
+    }
+
+    .blog__author {
+        gap: 14px;
+    }
+
+    .blog__avatar {
+        width: 57px;
+        height: 57px;
+    }
+
+    .blog__author-name {
+        font-size: 1.6rem;
+    }
+
+    .blog__author-field {
+        font-size: 1.4rem;
+    }
+
+    .blog__title {
+        margin-top: 18px;
+        font-size: 1.9rem;
+    }
+
+    .blog__more {
+        margin-top: 11px;
+        font-size: 1.6rem;
+    }
+
+    /* ============ CTA ============ */
+    .cta__sub-heading,
+    .cta__desc {
+        font-size: 1.2rem;
+    }
+
+    .cta__heading {
+        font-size: 3rem;
+    }
+
+    .cta__desc {
+        margin-top: 11px;
+    }
+
+    .cta__btn {
+        --height: 35px;
+
+        margin-top: 24px;
+        font-size: 1.1rem;
+    }
+
+    /* ============ Footer ============ */
+
+    .footer__bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* ============ Hero ============ */
+    .hero__decor:nth-child(2) {
+        width: 94px;
+        height: 94px;
+        top: -42px;
+        left: -10px;
+    }
+
+    .hero__decor:nth-child(4) {
+        right: -10px;
+        width: 83px;
+    }
+
+    /* ============ Testimonial ============ */
+    .testimonial__info {
+        margin-right: 0;
+    }
+}

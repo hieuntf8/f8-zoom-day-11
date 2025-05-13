@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+        <!-- Embed Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- Menu more -->
+                    <button class="d-none d-lg-block">
+                        <img src="./assets/icons/menu-more.svg" alt="" class="" />
+                    </button>
+
+                    <!-- Logo -->
+                    <a href="/" class="logo d-lg-none">
+                        <img src="./assets/img/logo-justice.svg" alt="" class="logo__img" />
+                        <div class="logo__text">
+                            <p class="logo__text--large">Justice</p>
+                            <p class="logo__text--small">Law Firm</p>
+                        </div>
+                    </a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar d-lg-none">
+                        <ul class="navbar__list">
+                            <li class="navbar__item navbar__item--active">
+                                <a href="#!" class="navbar__link">
+                                    Home
+                                    <img src="./assets/icons/arrow-down.svg" alt="" class="icon navbar__icon" />
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    About
+                                    <img src="./assets/icons/arrow-down.svg" alt="" class="icon navbar__icon" />
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Practice Areas
+                                    <img src="./assets/icons/arrow-down.svg" alt="" class="icon navbar__icon" />
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Attorneys
+                                    <img src="./assets/icons/arrow-down.svg" alt="" class="icon navbar__icon" />
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Page
+                                    <img src="./assets/icons/arrow-down.svg" alt="" class="icon navbar__icon" />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Call to action -->
+                    <div class="header-cta">
+                        <span class="header-cta__text">Call:</span>
+                        <a href="tel:123456789" class="header-cta__tel">(000) 123 456 789</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- ================= Hero ================= -->
+            <section class="hero">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-1">
+                        <div class="col">
+                            <div class="hero__info">
+                                <p class="sub-heading">#1 Law Firm in New York</p>
+                                <h1 class="heading-lv1 hero__heading">Where People Meets Personalized Support.</h1>
+                                <p class="desc hero__desc">
+                                    Where every injury is personal. We are a different kind of law firm. Let our small,
+                                    passionate group of trial lawyers fight for your rights!
+                                </p>
+                                <div>
+                                    <a href="#!" class="btn btn--primary hero__btn">Get a Consultations</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="hero__media">
+                                <img src="./assets/img/img-hero.jpg" alt="" class="hero__img" />
+                                <img src="./assets/img/hero-decor-02.svg" alt="" class="hero__decor" />
+                                <div class="hero__decor"></div>
+                                <img src="./assets/img/hero-decor-01.svg" alt="" class="hero__decor" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= About Us ================= -->
+            <section class="about">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-1 gy-lg-4">
+                        <div class="col d-md-none">
+                            <div class="about__media">
+                                <img src="./assets/img/about-us.jpg" alt="" class="about__img" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="about__info">
+                                <p class="sub-heading about__sub-heading">#About us</p>
+                                <h2 class="heading-lv2 about__heading">Get the Guidance, Support, and Counsel</h2>
+                                <p class="desc about__desc">
+                                    Every year hundreds of clients choose our firm because of our dedication to
+                                    advocating for our clients before, during and after closing.
+                                </p>
+                                <div class="about__data">
+                                    <div class="about__data--group">
+                                        <span class="about__qty">1782</span>
+                                        <span class="about__label">Law Cases</span>
+                                    </div>
+                                    <div class="about__data--group">
+                                        <span class="about__qty">10+</span>
+                                        <span class="about__label">Lawyer</span>
+                                    </div>
+                                    <div class="about__data--group">
+                                        <span class="about__qty">98%</span>
+                                        <span class="about__label">Happy Clients</span>
+                                    </div>
+                                </div>
+
+                                <div><a href="#!" class="btn btn--primary about__btn">Learn More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Services ================= -->
+            <section class="services">
+                <div class="container">
+                    <div class="services__top">
+                        <p class="sub-heading services__sub-heading">#Services</p>
+                        <h2 class="heading-lv2 services__heading">Our Practice Areas</h2>
+                        <p class="desc services__desc">
+                            Our Law Office provides a professional experience for all our clients, helping them navigate
+                            their legal rights.
+                        </p>
+                    </div>
+
+                    <div class="services__bottom">
+                        <div class="row row-cols-3 row-cols-lg-2 row-cols-md-1 gy-3 g-xl-2">
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-01.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Personal Injury Law</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-02.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Employment Law</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-03.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Immigration Law</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-04.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Family Law</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-05.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Divorce Law</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="services__item">
+                                    <a href="#!">
+                                        <img src="./assets/img/service-06.jpg" alt="" class="services__img" />
+                                    </a>
+                                    <a href="#!" class="btn btn--primary services__btn--more">Property Law</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a href="#!" class="btn btn--primary services__btn">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Features ================= -->
+            <section class="features">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-1 gy-lg-3">
+                        <div class="col">
+                            <div class="features__media">
+                                <img src="./assets/img/feature-01.jpg" alt="" class="features__img" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="features__info">
+                                <p class="sub-heading features__sub-heading">#Features</p>
+                                <h2 class="heading-lv2 features__heading">A Heritage of Legal Talent in the US</h2>
+                                <p class="desc features__desc">
+                                    When you are seeking the services of a nationally recognized law firm, you have
+                                    every right to expect an extra measure of expertise.
+                                </p>
+
+                                <ul class="features__list">
+                                    <li class="features__item">Fast and Responsive</li>
+                                    <li class="features__item">Top Notch Communication</li>
+                                    <li class="features__item">Emotional Intelligence</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-1 gy-lg-3">
+                        <div class="col">
+                            <div class="features__info features__info--bottom">
+                                <p class="sub-heading features__sub-heading">#Features</p>
+                                <h2 class="heading-lv2 features__heading">A Heritage of Legal Talent in the US</h2>
+                                <p class="desc features__desc">
+                                    When you are seeking the services of a nationally recognized law firm, you have
+                                    every right to expect an extra measure of expertise.
+                                </p>
+
+                                <div><a href="#!" class="btn btn--primary features__btn">Our Services</a></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="features__media features__media--bottom">
+                                <img src="./assets/img/feature-02.jpg" alt="" class="features__img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Team ================= -->
+            <section class="team">
+                <div class="container">
+                    <div class="team__top">
+                        <p class="sub-heading team__sub-heading">#Team</p>
+                        <h2 class="heading-lv2 team__heading">Meet With Lawyers</h2>
+                        <p class="desc team__desc">
+                            Our team of experienced team more than $150 Million in Settlements and Judgments for Our
+                            Clients
+                        </p>
+                    </div>
+
+                    <div class="team__list">
+                        <div class="row row-cols-3 row-cols-lg-2 row-cols-md-1 gy-3">
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-01.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">David Warner</h3>
+                                        <p class="team__label">Attorney at Law</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-02.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">Aaron Finch</h3>
+                                        <p class="team__label">Founding President</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-03.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">Jamie Watts</h3>
+                                        <p class="team__label">Partner</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-04.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">Ellyse Perry</h3>
+                                        <p class="team__label">Associate Attorney</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-05.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">Meg Lanning</h3>
+                                        <p class="team__label">Senior Partner</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="team__item">
+                                    <div class="team__group">
+                                        <a href="#!" class="team__thumb">
+                                            <img src="./assets/img/service-06.jpg" alt="" class="team__img" />
+                                        </a>
+                                        <a href="#!" class="btn btn--primary team__btn--more">View Profile</a>
+                                    </div>
+                                    <div class="team__info">
+                                        <h3 class="team__name">Peter Siddle</h3>
+                                        <p class="team__label">Of Counsel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-group">
+                            <a href="#!" class="btn btn--primary team__btn">All Attorney</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Awards ================= -->
+            <section class="awards">
+                <div class="container">
+                    <div class="awards__top">
+                        <p class="sub-heading awards__sub-heading">#Awards</p>
+                        <h2 class="heading-lv2 awards__heading">Our Honors & Awards</h2>
+                    </div>
+                    <div class="awards__bottom">
+                        <div class="row row-cols-4 row-cols-md-2 row-cols-sm-1 g-md-2">
+                            <div class="col">
+                                <div class="awards__item">
+                                    <img src="./assets/img/awards-01.png" alt="" class="awards__img" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="awards__item">
+                                    <img src="./assets/img/awards-02.png" alt="" class="awards__img" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="awards__item">
+                                    <img src="./assets/img/awards-03.png" alt="" class="awards__img" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="awards__item">
+                                    <img src="./assets/img/awards-04.png" alt="" class="awards__img" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Testimonial ================= -->
+
+            <section class="testimonial">
+                <div class="container">
+                    <div class="testimonial__top">
+                        <div class="testimonial__info">
+                            <p class="sub-heading testimonial__sub-heading">#Testimonial</p>
+                            <h2 class="heading-lv2 testimonial__heading">What Our Clients Say About Us</h2>
+                        </div>
+                        <div class="testimonial__control d-sm-none">
+                            <button class="testimonial__control-btn">
+                                <img src="./assets/icons/control-left.svg" alt="" class="testimonial__control-icon" />
+                            </button>
+                            <button class="testimonial__control-btn">
+                                <img src="./assets/icons/control-right.svg" alt="" class="testimonial__control-icon" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__bottom">
+                        <div class="row row-cols-3 row-cols-md-2 row-cols-sm-1 gx-xl-2 gy-2">
+                            <div class="col">
+                                <div class="testimonial__item">
+                                    <img
+                                        src="./assets/img/avatra-testimonial-01.jpg"
+                                        alt=""
+                                        class="testimonial__avatar"
+                                    />
+                                    <blockquote class="testimonial__quote">
+                                        "I am very satisfied with this Law Office. Very professional, quick responses to
+                                        calls, humble and understanding. Marty has done a lot of work for me and helped
+                                        my friends and myself work through some sticky issues. His staff is professional
+                                        and hard working! I recommend anyone who needs a lawyer to Marty Meason and his
+                                        team."
+                                    </blockquote>
+                                    <div class="testimonial__author">
+                                        <img src="./assets/icons/blockquote.svg" alt="" class="testimonial__icon" />
+                                        <h3 class="heading-lv3 testimonial__name">Tim Southee</h3>
+                                        <p class="testimonial__field">UI/UX Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="testimonial__item">
+                                    <img
+                                        src="./assets/img/avatra-testimonial-02.jpg"
+                                        alt=""
+                                        class="testimonial__avatar"
+                                    />
+                                    <blockquote class="testimonial__quote">
+                                        "I am very satisfied with this Law Office. Very professional, quick responses to
+                                        calls, humble and understanding. Marty has done a lot of work for me and helped
+                                        my friends and myself work through some sticky issues. His staff is professional
+                                        and hard working! I recommend anyone who needs a lawyer to Marty Meason and his
+                                        team."
+                                    </blockquote>
+                                    <img src="./assets/icons/blockquote.svg" alt="" class="testimonial__icon" />
+                                    <h3 class="heading-lv3 testimonial__name">Trent Boult</h3>
+                                    <p class="testimonial__field">UI/UX Designer</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="testimonial__item">
+                                    <img
+                                        src="./assets/img/avatra-testimonial-03.jpg"
+                                        alt=""
+                                        class="testimonial__avatar"
+                                    />
+                                    <blockquote class="testimonial__quote">
+                                        "I am very satisfied with this Law Office. Very professional, quick responses to
+                                        calls, humble and understanding. Marty has done a lot of work for me and helped
+                                        my friends and myself work through some sticky issues. His staff is professional
+                                        and hard working! I recommend anyone who needs a lawyer to Marty Meason and his
+                                        team."
+                                    </blockquote>
+                                    <img src="./assets/icons/blockquote.svg" alt="" class="testimonial__icon" />
+                                    <h3 class="heading-lv3 testimonial__name">Matt Henry</h3>
+                                    <p class="testimonial__field">UI/UX Designer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__dots">
+                            <div class="testimonial__dot testimonial__dot--current"></div>
+                            <div class="testimonial__dot"></div>
+                            <div class="testimonial__dot"></div>
+                            <div class="testimonial__dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= FAQ ================= -->
+            <section class="faq">
+                <div class="container">
+                    <div class="faq__inner">
+                        <p class="sub-heading faq__sub-heading">#FAQ</p>
+                        <h2 class="heading-lv2 faq__heading">Frequently Asked Questions</h2>
+                        <div class="faq__tab">
+                            <div class="faq__tab--type faq__tab--type-current">General Question</div>
+                            <div class="faq__tab--type">Other Question</div>
+                        </div>
+
+                        <div class="faq__list">
+                            <div class="faq__item faq__item--open">
+                                <div class="faq__item--row">
+                                    <h3 class="faq__label">Why should I hire an attorney?</h3>
+                                    <img src="./assets/icons/faq-arrow-up.svg" alt="" class="icon faq__icon" />
+                                </div>
+                                <p class="faq__text faq__text--current">
+                                    When you are faced with a personal injury, the physical and emotional burden should
+                                    not be taken for granted. Hiring an attorney not only provides trusted legal
+                                    guidance but someone to stand in your corner when you need it most. Insurance
+                                    companies are seeking their best interest and not your own, so it’s always a good
+                                    idea to seek counsel.
+                                </p>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item--row">
+                                    <h3 class="faq__label">Why should I hire an attorney?</h3>
+                                    <img src="./assets/icons/faq-arrow-down.svg" alt="" class="icon faq__icon" />
+                                </div>
+                                <p class="faq__text">
+                                    When you are faced with a personal injury, the physical and emotional burden should
+                                    not be taken for granted. Hiring an attorney not only provides trusted legal
+                                    guidance but someone to stand in your corner when you need it most. Insurance
+                                    companies are seeking their best interest and not your own, so it’s always a good
+                                    idea to seek counsel.
+                                </p>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item--row">
+                                    <h3 class="faq__label">Why should I hire an attorney?</h3>
+                                    <img src="./assets/icons/faq-arrow-down.svg" alt="" class="icon faq__icon" />
+                                </div>
+                                <p class="faq__text">
+                                    When you are faced with a personal injury, the physical and emotional burden should
+                                    not be taken for granted. Hiring an attorney not only provides trusted legal
+                                    guidance but someone to stand in your corner when you need it most. Insurance
+                                    companies are seeking their best interest and not your own, so it’s always a good
+                                    idea to seek counsel.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= Blog ================= -->
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__top">
+                        <div class="blog__info">
+                            <p class="sub-heading blog__sub-heading">#Blog</p>
+                            <h2 class="heading-lv2 blog__heading">Latest Story & News</h2>
+                            <p class="desc blog__desc">
+                                We’re always adding new content to help better inform our clients on issues impacting
+                                their lives.
+                            </p>
+                        </div>
+                        <div class="blog__action d-lg-none">
+                            <a href="#!" class="btn btn--primary blog__btn">Browse All</a>
+                        </div>
+                    </div>
+
+                    <div class="blog__bottom">
+                        <div class="row row-cols-3 row-cols-lg-2 row-cols-md-1 g-lg-3">
+                            <div class="col">
+                                <div class="blog__item">
+                                    <a href="#!" class="blog__thumb">
+                                        <img src="./assets/img/blog-01.jpg" alt="" class="blog__img" />
+                                    </a>
+                                    <div class="blog__content">
+                                        <div class="blog__author">
+                                            <img src="./assets/img/avatar-blog.jpg" alt="" class="blog__avatar" />
+                                            <div>
+                                                <div class="blog__author-name">Mitchell Starc</div>
+                                                <div class="blog__author-field">Attorney at Law</div>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog__title">
+                                            <a href="#!">5 Key Rules of Law in Our Society Must Know in 2022</a>
+                                        </h3>
+                                        <a href="#!" class="blog__more">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="blog__item">
+                                    <a href="#!" class="blog__thumb">
+                                        <img src="./assets/img/blog-02.jpg" alt="" class="blog__img" />
+                                    </a>
+                                    <div class="blog__content">
+                                        <div class="blog__author">
+                                            <img src="./assets/img/avatar-blog.jpg" alt="" class="blog__avatar" />
+                                            <div>
+                                                <div class="blog__author-name">Mitchell Starc</div>
+                                                <div class="blog__author-field">Attorney at Law</div>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog__title">
+                                            <a href="#!">5 Key Rules of Law in Our Society Must Know in 2022</a>
+                                        </h3>
+                                        <a href="#!" class="blog__more">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="blog__item">
+                                    <a href="#!" class="blog__thumb">
+                                        <img src="./assets/img/blog-03.jpg" alt="" class="blog__img" />
+                                    </a>
+                                    <div class="blog__content">
+                                        <div class="blog__author">
+                                            <img src="./assets/img/avatar-blog.jpg" alt="" class="blog__avatar" />
+                                            <div>
+                                                <div class="blog__author-name">Mitchell Starc</div>
+                                                <div class="blog__author-field">Attorney at Law</div>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog__title">
+                                            <a href="#!">5 Key Rules of Law in Our Society Must Know in 2022</a>
+                                        </h3>
+                                        <a href="#!" class="blog__more">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog__action d-none d-lg-flex">
+                            <a href="#!" class="btn btn--primary blog__btn">Browse All</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= CTA ================= -->
+            <section class="cta">
+                <div class="container">
+                    <div class="cta__inner">
+                        <p class="sub-heading cta__sub-heading">#CTA</p>
+                        <h2 class="heading-lv2 cta__heading">Dealing With a Issue?</h2>
+                        <p class="desc cta__desc">
+                            Where every injury is personal. We are a different kind of law firm. Let our small,
+                            passionate group of trial lawyers fight for your rights!
+                        </p>
+                        <a href="#!" class="btn btn--primary cta__btn">Get a Consultations</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ================= Footer ================= -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="row">
+                        <div class="col-2 col-xl-4 col-md-6 col-sm-12 gy-3">
+                            <h3 class="footer__heading">Justice</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Privacy Policy</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Terms & Conditions</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Cookie Preferences</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-2 col-xl-4 col-md-6 col-sm-12 gy-3">
+                            <h3 class="footer__heading">Pages</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Practice Areas</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Attorneys</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3 col-xl-4 col-md-6 col-sm-12 gy-3">
+                            <h3 class="footer__heading">Justice</h3>
+                            <div class="footer__contact">
+                                <p class="footer__address">50 Harrison Street, PH Suite 445 Hoboken, NJ 07030</p>
+                                <a href="tel:1234567" class="footer__address">(000) 123-4567</a>
+                                <a href="mailto:yourlawfirm22@gmail.com" class="footer__address"
+                                    >yourlawfirm22@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                        <div class="col-4 col-xl-12 col-md-6 col-sm-12 gy-3">
+                            <div class="footer__map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7837.116084114385!2d106.78150784860048!3d10.8450946944655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752713c3047c6d%3A0xe663a0cd6c897e74!2zUXXhuq1uIDksIFTEg25nIE5oxqFuIFBow7ogQSwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1746973698395!5m2!1svi!2s"
+                                    width="100%"
+                                    height="100%"
+                                    style="border-radius: 6px"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <a href="/" class="logo">
+                        <img src="./assets/img/logo-justice.svg" alt="" class="logo__img footer__logo-img" />
+                        <div class="logo__text">
+                            <p class="logo__text--large">Justice</p>
+                            <p class="logo__text--small">Law Firm</p>
+                        </div>
+                    </a>
+                    <div class="footer__bottom-row">
+                        <p class="footer__copyright">Copyright © 2022 UI HUT All Rights Reserved</p>
+
+                        <div class="footer__socials">
+                            <a href="#!" class="footer__social-link">
+                                <img src="./assets/icons/facebook.svg" alt="" class="footer__social-icon" />
+                            </a>
+
+                            <a href="#!" class="footer__social-link">
+                                <img src="./assets/icons/linkedin.svg" alt="" class="footer__social-icon" />
+                            </a>
+                            <a href="#!" class="footer__social-link">
+                                <img src="./assets/icons/twitter.svg" alt="" class="footer__social-icon" />
+                            </a>
+
+                            <a href="#!" class="footer__social-link">
+                                <img src="./assets/icons/instagram.svg" alt="" class="footer__social-icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

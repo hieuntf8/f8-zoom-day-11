@@ -1,0 +1,41 @@
+:root {
+    --font-roboto-lab: "Roboto Slab", serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Manrope", sans-serif;
+    color: #0e1412;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+img,
+input,
+button,
+textarea,
+select {
+    padding: 0;
+    border: none;
+    outline: none;
+    color: inherit;
+    background: transparent;
+    font-family: inherit;
+}
